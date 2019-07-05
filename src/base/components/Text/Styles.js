@@ -2,7 +2,7 @@ import styled, { css } from "styled-components"
 
 import theme from "../../Theme"
 
-const { typography, spacingSizes, colors } = theme
+const { spacingSizes, colors } = theme
 
 // export const paragraphSizes = {
 //   sm: typography.bodySmall,
@@ -15,26 +15,20 @@ const fontSizes = {
 	sm: "1.6rem",
 	md: "2.0rem",
 	lg: "2.4rem",
-	xl: "2.8rem",
+	xl: "2.8rem"
 }
 
 export const paragraphColors = {
 	...colors,
 	dark: colors.black,
-	light: colors.gray10,
+	light: colors.gray10
 }
 // ${p => paragraphSizes[p.size]};
 export const StyledParagraph = styled.p`
 	font-family: "Roboto", Helvetica, sans-serif;
 	color: ${props => paragraphColors[props.color]};
-	font-size: ${props =>
-		(props.font.length <= 3) & !props.font.endsWith("px")
-			? fontSizes[props.font.substr(0, 2)]
-			: props.font};
-	font-weight: ${props =>
-		(props.font.length > 2) & !props.font.endsWith("px")
-			? `${props.font.substr(2)}00`
-			: props.fontWeight};
+	font-size: ${props => ((props.font.length <= 3) & !props.font.endsWith("px") ? fontSizes[props.font.substr(0, 2)] : props.font)};
+	font-weight: ${props => ((props.font.length > 2) & !props.font.endsWith("px") ? `${props.font.substr(2)}00` : props.fontWeight)};
 	${props => props.noMargin && "margin: 0"};
 	${props => props.noMaxWidth && "max-width: none"};
 	${spacingSizes};

@@ -32,12 +32,14 @@ import {
 	right,
 	bottom,
 	left,
+	fontSize,
+	fontWeight
 } from "../../CssProps"
 
 const { spacingSizes, borderOptions, animations, elevations } = theme
 
 export const boxElevations = {
-	...elevations,
+	...elevations
 }
 
 /* Everything related to specific element styles has to come first, otherwise editing stuff later wont work */
@@ -75,6 +77,8 @@ const boxBase = styled.span`
 	${left};
 	${spacingSizes};
 	${borderOptions};
+	${fontSize};
+	${fontWeight};
 `
 
 export const elements = {
@@ -84,4 +88,10 @@ export const elements = {
 	vid: boxBase.withComponent("video"),
 	section: boxBase.withComponent("section"),
 	button: boxBase.withComponent("button"),
+	h1: boxBase.withComponent("h1"),
+	h2: boxBase.withComponent("h2"),
+	h3: boxBase.withComponent("h3"),
+	h4: boxBase.withComponent("h4"),
+	h5: boxBase.withComponent("h5"),
+	h6: boxBase.withComponent("h6")
 }

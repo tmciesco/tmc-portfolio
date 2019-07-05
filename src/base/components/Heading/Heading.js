@@ -1,14 +1,15 @@
 import PropTypes from "prop-types"
 import React from "react"
+import { Box } from "../Box"
+
 // import theme from '../../Theme'
-import { headingSizes, headingColors, headingElements } from "./Styles"
+import { headingSizes, headingColors } from "./Styles"
 
 export const Heading = ({ children, color, level, size, pad, pt, pr, pb, pl, mar, mt, mr, mb, ml, ...others }) => {
-	const HeadingElement = headingElements[`h${level}`]
 	return (
-		<HeadingElement color={color} size={size} pad={pad} pt={pt} pr={pr} pb={pb} pl={pl} mar={mar} mt={mt} mr={mr} mb={mb} ml={ml} {...others}>
+		<Box as={`h${level}`} color={color} size={size} pad={pad} pt={pt} pr={pr} pb={pb} pl={pl} mar={mar} mt={mt} mr={mr} mb={mb} ml={ml} {...others}>
 			{children}
-		</HeadingElement>
+		</Box>
 	)
 }
 
