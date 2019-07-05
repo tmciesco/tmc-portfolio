@@ -4,7 +4,7 @@ import animations from "./animations/animations"
 import borderOptions from "./borders/borders"
 import elevations from "./elevations/elevations"
 import fonts from "./fonts/fonts"
-import fontSizes from "./fonts/fontSizes"
+import { textSizes, fontSizes, headingSizes } from "./fonts/fontSizes"
 import typography from "./fonts/typography"
 import mediaQueries from "./layout/breakpoints"
 import spacingSizes from "./layout/spacingSizes"
@@ -19,11 +19,13 @@ const standard = {
 	borderOptions,
 	elevations,
 	fonts,
+	textSizes,
+	headingSizes,
 	fontSizes,
 	typography,
 	mediaQueries,
 	spacingSizes,
-	contentContainer,
+	contentContainer
 }
 
 export default standard

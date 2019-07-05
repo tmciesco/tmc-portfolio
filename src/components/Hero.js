@@ -6,13 +6,13 @@ const Hero = () => {
 		<Section>
 			<Wrapper contain>
 				<FlexCol xs="12">
-					<Heading color="primary" size="xxl" pt="xxl" center>
+					<Heading color="primary" font="xl" pt="xxl" center>
 						Hello!
 					</Heading>
-					<Heading color="dark" size="xxl" pt="lg" center>
+					<Heading color="dark" font="lg" pt="lg" center>
 						My name is Troy.
 					</Heading>
-					<Heading color="dark" pt="md" pb="md" center>
+					<Heading color="dark" font="sm3" pt="md" pb="md" center>
 						I'm a developer from Connecticut.
 					</Heading>
 					<Button>Get In Touch</Button>

@@ -2,8 +2,6 @@ import styled from "styled-components"
 
 import theme from "../../Theme"
 
-import { buttonStyles } from "../Button/Styles"
-import { FlexStyles } from "../Flex/Styles"
 import {
 	bg,
 	bgColor,
@@ -33,6 +31,7 @@ import {
 	bottom,
 	left,
 	textFontSize,
+	headingFontSize,
 	fontWeight
 } from "../../CssProps"
 
@@ -43,9 +42,8 @@ export const boxElevations = {
 }
 
 /* Everything related to specific element styles has to come first, otherwise editing stuff later wont work */
-const boxBase = styled.span`
-	${props => props.as === "button" && buttonStyles};
-	${props => props.flex && FlexStyles};
+const baseText = styled.span`
+	${props => (props.as === "p" ? textFontSize : headingFontSize)};
 	${props => animations[props.animation]};
 	box-shadow: ${props => boxElevations[props.elevation]};
 	${bgColor};
@@ -77,21 +75,16 @@ const boxBase = styled.span`
 	${left};
 	${spacingSizes};
 	${borderOptions};
-	${textFontSize};
 	${fontWeight};
 `
 
 export const elements = {
-	span: boxBase.withComponent("span"),
-	div: boxBase.withComponent("div"),
-	img: boxBase.withComponent("img"),
-	vid: boxBase.withComponent("video"),
-	section: boxBase.withComponent("section"),
-	button: boxBase.withComponent("button"),
-	h1: boxBase.withComponent("h1"),
-	h2: boxBase.withComponent("h2"),
-	h3: boxBase.withComponent("h3"),
-	h4: boxBase.withComponent("h4"),
-	h5: boxBase.withComponent("h5"),
-	h6: boxBase.withComponent("h6")
+	h1: baseText.withComponent("h1"),
+	h2: baseText.withComponent("h2"),
+	h3: baseText.withComponent("h3"),
+	h4: baseText.withComponent("h4"),
+	h5: baseText.withComponent("h5"),
+	h6: baseText.withComponent("h6"),
+	p: baseText.withComponent("p"),
+	code: baseText.withComponent("code")
 }

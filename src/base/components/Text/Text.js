@@ -1,44 +1,12 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { BaseText } from "../BaseText"
 
-import { StyledParagraph, paragraphColors } from "./Styles"
+import { paragraphColors } from "./Styles"
 
-export const Text = ({
-	children,
-	color,
-	noMargin,
-	size,
-	pad,
-	pt,
-	pr,
-	pb,
-	pl,
-	mar,
-	mt,
-	mr,
-	mb,
-	ml,
-	...others
-}) => (
-	<StyledParagraph
-		color={color}
-		noMargin={noMargin}
-		size={size}
-		pad={pad}
-		pt={pt}
-		pr={pr}
-		pb={pb}
-		pl={pl}
-		mar={mar}
-		mt={mt}
-		mr={mr}
-		mb={mb}
-		ml={ml}
-		{...others}
-	>
-		{children}
-	</StyledParagraph>
-)
+export const Text = ({ children, ...props }) => {
+	return <BaseText {...props}>{children}</BaseText>
+}
 
 // export const ParagraphSizes = Object.keys(paragraphSizes)
 export const ParagraphColors = Object.keys(paragraphColors)
@@ -52,7 +20,7 @@ Text.propTypes = {
 	/** If set, removes margin on Paragraph instance */
 	noMargin: PropTypes.bool,
 	/** If set, removes the max-width on Paragraph instance */
-	noMaxWidth: PropTypes.bool,
+	noMaxWidth: PropTypes.bool
 	/** Size of the Paragraph. Options are 'small', 'medium', 'large' */
 	// size: PropTypes.oneOf(ParagraphSizes),
 	// pad: PropTypes.oneOf(SpacingSizes),
@@ -69,5 +37,6 @@ Text.propTypes = {
 
 Text.defaultProps = {
 	color: "dark",
-	font: "md",
+	as: "p",
+	font: "md"
 }

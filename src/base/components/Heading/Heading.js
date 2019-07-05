@@ -1,15 +1,15 @@
 import PropTypes from "prop-types"
 import React from "react"
-import { Box } from "../Box"
+import { BaseText } from "../BaseText"
 
 // import theme from '../../Theme'
 import { headingSizes, headingColors } from "./Styles"
 
-export const Heading = ({ children, color, level, size, pad, pt, pr, pb, pl, mar, mt, mr, mb, ml, ...others }) => {
+export const Heading = ({ children, level, ...props }) => {
 	return (
-		<Box as={`h${level}`} color={color} size={size} pad={pad} pt={pt} pr={pr} pb={pb} pl={pl} mar={mar} mt={mt} mr={mr} mb={mb} ml={ml} {...others}>
+		<BaseText as={`h${level}`} {...props}>
 			{children}
-		</Box>
+		</BaseText>
 	)
 }
 
@@ -42,5 +42,5 @@ Heading.propTypes = {
 Heading.defaultProps = {
 	color: "dark",
 	level: 2,
-	size: "md"
+	font: "md"
 }
