@@ -1,20 +1,24 @@
 import React from "react"
-
 import PropTypes from "prop-types"
+import { Box } from "../Box"
 
 import { FlexRowStyles, FlexColStyles, columnSizes } from "./Styles"
 
-export const FlexRow = ({ cn, children, ...props }) => {
+export const Flex = ({ children, ...props }) => {
 	return (
-		<FlexRowStyles className={cn} {...props}>
+		<Box flex {...props}>
 			{children}
-		</FlexRowStyles>
+		</Box>
 	)
 }
 
-export const FlexCol = ({ cn, children, xs, ...props }) => {
+export const FlexRow = ({ children, ...others }) => {
+	return <FlexRowStyles {...others}>{children}</FlexRowStyles>
+}
+
+export const FlexCol = ({ children, xs, ...others }) => {
 	return (
-		<FlexColStyles className={cn} xs={xs} {...props}>
+		<FlexColStyles xs={xs} {...others}>
 			{children}
 		</FlexColStyles>
 	)
@@ -30,13 +34,19 @@ FlexCol.propTypes = {
 	md: PropTypes.oneOf(ColumnSizes),
 	lg: PropTypes.oneOf(ColumnSizes),
 	xl: PropTypes.oneOf(ColumnSizes),
-	xxl: PropTypes.oneOf(ColumnSizes)
+	xxl: PropTypes.oneOf(ColumnSizes),
+}
+
+Flex.defaultProps = {
+	as: "div",
+	dir: "row",
+	justifyContent: "space-around",
 }
 
 FlexCol.defaultProps = {
-	alignItems: "center"
+	alignItems: "center",
 }
 
 FlexRow.defaultProps = {
-	justifyContent: "space-around"
+	justifyContent: "space-around",
 }

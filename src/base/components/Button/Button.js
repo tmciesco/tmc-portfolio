@@ -1,12 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { Box } from "../Box"
 
-import { StyledButton, buttonModes, buttonSizes } from "./Styles"
+import { buttonModes, buttonSizes } from "./Styles"
 
-export const Button = ({ cn, children, mode, onClick, size, ...others }) => (
-	<StyledButton className={cn} onClick={onClick} mode={mode} size={size} {...others}>
+export const Button = ({ children, mode, onClick, size, ...props }) => (
+	<Box as="button" onClick={onClick} mode={mode} size={size} {...props}>
 		{children}
-	</StyledButton>
+	</Box>
 )
 
 export const ButtonModes = Object.keys(buttonModes)
@@ -20,11 +21,11 @@ Button.propTypes = {
 	/** Function to run on click */
 	onClick: PropTypes.func,
 	/** Size of the button. Options are 'small', 'medium', 'large' */
-	size: PropTypes.oneOf(ButtonSizes)
+	size: PropTypes.oneOf(ButtonSizes),
 }
 
 Button.defaultProps = {
 	mode: "primary",
 	onClick: () => {},
-	size: "medium"
+	size: "medium",
 }

@@ -1,5 +1,4 @@
-import styled, { css } from "styled-components"
-
+import { css } from "styled-components"
 import theme from "../../Theme"
 
 const { fontSizes, colors, fonts, spacingSizes } = theme
@@ -19,7 +18,7 @@ export const buttonModes = {
 	secondary: css`
 		background-color: ${colors.secondary};
 		border: 1px solid ${colors.secondary};
-		color: ${colors.light};
+		color: ${colors.white};
 
 		&:hover {
 			background-color: ${colors.secondaryS20};
@@ -30,7 +29,7 @@ export const buttonModes = {
 	success: css`
 		background-color: ${colors.success};
 		border: 1px solid ${colors.success};
-		color: ${colors.light};
+		color: ${colors.white};
 
 		&:hover {
 			background-color: ${colors.successS20};
@@ -52,7 +51,7 @@ export const buttonModes = {
 	danger: css`
 		background-color: ${colors.danger};
 		border: 1px solid ${colors.danger};
-		color: ${colors.light};
+		color: ${colors.white};
 
 		&:hover {
 			background-color: ${colors.dangerS20};
@@ -63,13 +62,13 @@ export const buttonModes = {
 	info: css`
 		background-color: ${colors.info};
 		border: 1px solid ${colors.info};
-		color: ${colors.light};
+		color: ${colors.white};
 
 		&:hover {
 			background-color: ${colors.infoS20};
 			border: 1px solid ${colors.infoS20};
 		}
-	`
+	`,
 }
 
 export const buttonSizes = {
@@ -84,18 +83,19 @@ export const buttonSizes = {
 	large: css`
 		${fontSizes.size2};
 		padding: 1rem 1.5rem;
-	`
+	`,
 }
 
-export const StyledButton = styled.button`
+export const buttonStyles = css`
 	${props => buttonModes[props.mode]};
 	${props => buttonSizes[props.size]};
-	${spacingSizes};
 	color: ${props => colors[props.color]};
+	${spacingSizes};
 	cursor: pointer;
 	outline: none;
+	text-transform: uppercase;
 	position: relative;
-	border-radius: 4px;
+	border-radius: 2px;
 	${fonts.primaryRegular};
 	transition: all 0.2s ease-out;
 	${props =>

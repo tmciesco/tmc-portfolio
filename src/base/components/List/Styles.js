@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components';
 
 import theme from '../../Theme'
 
@@ -25,11 +25,7 @@ export const listSizes = {
     margin: 0;
     color: ${p => listColors[p.color]};
     ${p => listSizes[p.size]};
-    ${spacingSizes};
-
-    ${props => props.noBullets && css`
-      list-style: none;
-    `}
+    ${spacingSizes}
   `;
   
   export const listElements = {

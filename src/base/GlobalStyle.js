@@ -20,8 +20,6 @@ body {
 	line-height: 1.6;
     min-height: 100vh;
     background: #ffffff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 a {

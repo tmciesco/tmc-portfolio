@@ -1,13 +1,12 @@
 import PropTypes from "prop-types"
 import React from "react"
-
 // import theme from '../../Theme'
 import { headingSizes, headingColors, headingElements } from "./Styles"
 
-export const Heading = ({ cn, children, color, level, size, pad, pt, pr, pb, pl, mar, mt, mr, mb, ml, ...others }) => {
+export const Heading = ({ children, color, level, size, pad, pt, pr, pb, pl, mar, mt, mr, mb, ml, ...others }) => {
 	const HeadingElement = headingElements[`h${level}`]
 	return (
-		<HeadingElement className={cn} color={color} size={size} pad={pad} pt={pt} pr={pr} pb={pb} pl={pl} mar={mar} mt={mt} mr={mr} mb={mb} ml={ml} {...others}>
+		<HeadingElement color={color} size={size} pad={pad} pt={pt} pr={pr} pb={pb} pl={pl} mar={mar} mt={mt} mr={mr} mb={mb} ml={ml} {...others}>
 			{children}
 		</HeadingElement>
 	)

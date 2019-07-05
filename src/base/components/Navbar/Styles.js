@@ -134,7 +134,6 @@ export const NavbarToggleStyles = styled.div`
   @media (min-width: 769px) {
     display: none;
   }
-  padding: 15px;
 `
 
 export const SideDrawerStyles = styled.nav`
@@ -168,11 +167,15 @@ ${props => props.show && css`
 }
 
 & a {
-    color: ${colors.dark};
+    color: purple;
     text-decoration: none;
     font-size: 1.6rem;
 }
 
+& a:hover,
+& a:active {
+    color: blue;
+}
 
 @media (min-width: 769px) {
         display: none;

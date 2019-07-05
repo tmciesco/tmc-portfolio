@@ -1,5 +1,5 @@
 import React from "react"
-import { Section, Heading, Text, FlexCol, FlexRow } from "../base"
+import { Section, Heading, Text, Img, FlexCol, FlexRow } from "../base"
 import troy from "../img/troy.jpg"
 
 const About = () => {
@@ -16,7 +16,7 @@ const About = () => {
 					</Text>
 				</FlexCol>
 				<FlexCol xs="5">
-					<img src={troy} alt="troy" style={{ width: "90%", height: "auto", margin: "0 auto" }} />
+					<Img src={troy} alt="troy" width="90%" height="auto" margin="0 auto" elevation="3" />
 				</FlexCol>
 			</FlexRow>
 			<Text size="lg" pb="sm">
