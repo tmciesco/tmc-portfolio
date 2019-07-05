@@ -4,23 +4,23 @@ import troy from "../img/troy.jpg"
 
 const Hero = () => {
 	return (
-		<Section bg="#002b44" height="55vh" position="relative" bb="solid">
-				<Box as="div" pad="xl">
-			<Wrapper contain>
+		<Section bg="#002b44" minHeight="55vh" position="relative" bb="solid">
+			<Box as="div">
+				<Wrapper style={{ width: "1024px", minWidth: "80%" }}>
 					<Heading color="light" font="hu" pt="xxl">
-					Hello!
+						Hello!
 					</Heading>
 					<Heading color="light" font="hu">
-					My name is <span style={{color: 'lightgreen'}}>Troy.</span>
+						My name is <span style={{ color: "lightgreen" }}>Troy.</span>
 					</Heading>
 					<Heading color="light" font="lg3" pb="md">
-						I <code style={{fontSize: "6.0rem"}}>code</code> for fun and profit.
+						I <code style={{ fontSize: "6.0rem" }}>code</code> for fun and profit.
 					</Heading>
 					<Button mode="primary" width="250px">
 						Get In Touch
 					</Button>
-			</Wrapper>
-				</Box>
+				</Wrapper>
+			</Box>
 			<Img src={troy} alt="troy" radtl="5px" radbl="5px" b width="40%" height="auto" margin="0 auto" elevation="3" position="absolute" top="150px" right="0" zIndex="3" />
 		</Section>
 	)
