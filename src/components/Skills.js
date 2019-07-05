@@ -9,54 +9,60 @@ const Skills = () => {
 					Skills
 				</Heading>
 				<FlexRow mb="xl">
-					<FlexCol xs="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="lightgreen" pad="xl">
+					<FlexCol xs="12" lg='3'>
+						<Box as="div" elevation="2" bor="card" rad="4px" bg="lightgreen" pad="xl" width='300px'>
 							<Text font="lg" textAlign="center" pb="lg">
 								Design
 							</Text>
-							<Text textAlign="center">Photoshop, InDesign, Illustrator, XD</Text>
+							<Text font="sm" textAlign="center">Photoshop, InDesign</Text>
+							<Text font="sm" textAlign="center">Illustrator, XD</Text>
 						</Box>
 					</FlexCol>
-					<FlexCol xs="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" rad="4px" bg="lightgreen" pad="xl">
+					<FlexCol xs="12" lg='3'>
+						<Box as="div" elevation="2" bor="card" rad="4px" rad="4px" bg="lightgreen" pad="xl" width='300px'>
 							<Text font="lg" textAlign="center" pb="lg">
 								Front End
 							</Text>
-							<Text textAlign="center">HTML, CSS, SCSS, JavaScript, React</Text>
+							<Text font='sm' textAlign="center">HTML, CSS/SCSS</Text>
+							<Text font='sm' textAlign="center">JavaScript, React</Text>
 						</Box>
 					</FlexCol>
-					<FlexCol xs="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" rad="4px" bg="lightgreen" pad="xl">
+					<FlexCol xs="12" lg='3'>
+						<Box as="div" elevation="2" bor="card" rad="4px" rad="4px" bg="lightgreen" pad="xl" width='300px'>
 							<Text font="lg" textAlign="center" pb="lg">
 								Back End
 							</Text>
-							<Text textAlign="center">Python, Django, Node.js, Express</Text>
+							<Text font='sm' textAlign="center">Python, Django</Text>
+							<Text font='sm' textAlign="center">Node.js, Express</Text>
 						</Box>
 					</FlexCol>
 				</FlexRow>
 				<FlexRow mt="xl">
-					<FlexCol xs="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" rad="4px" bg="lightgreen" pad="xl">
+					<FlexCol xs="12" lg='3'>
+						<Box as="div" elevation="2" bor="card" rad="4px" rad="4px" bg="lightgreen" pad="xl" width='300px'>
 							<Text font="lg" textAlign="center" pb="lg">
-								Database
+								Database &amp; APIs
 							</Text>
-							<Text textAlign="center">MySQL, GraphQL, PostgreSQL</Text>
+							<Text font='sm' textAlign="center">MySQL, PostgreSQL</Text>
+							<Text font='sm' textAlign="center">GraphQL, REST</Text>
 						</Box>
 					</FlexCol>
-					<FlexCol xs="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" rad="4px" bg="lightgreen" pad="xl">
+					<FlexCol xs="12" lg='3'>
+						<Box as="div" elevation="2" bor="card" rad="4px" rad="4px" bg="lightgreen" pad="xl" width='300px'>
 							<Text font="lg" textAlign="center" pb="lg">
 								Misc. Tech
 							</Text>
-							<Text textAlign="center">AWS, Wordpress, Agile/Scrum, Blockchain</Text>
+							<Text font='sm' textAlign="center">AWS, Wordpress</Text>
+							<Text font='sm' textAlign="center">Agile/Scrum, Blockchain</Text>
 						</Box>
 					</FlexCol>
-					<FlexCol xs="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" rad="4px" bg="lightgreen" pad="xl">
+					<FlexCol xs="12" lg='3'>
+						<Box as="div" elevation="2" bor="card" rad="4px" rad="4px" bg="lightgreen" pad="xl" width='300px'>
 							<Text font="lg" textAlign="center" pb="lg">
 								Soft Skills
 							</Text>
-							<Text textAlign="center">Communication, Teamwork, Leadership</Text>
+							<Text font='sm' textAlign="center">Communication, Teamwork</Text>
+							<Text font='sm' textAlign="center">Leadership, Enthusiasm</Text>
 						</Box>
 					</FlexCol>
 				</FlexRow>
