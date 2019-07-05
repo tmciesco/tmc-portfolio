@@ -21,7 +21,7 @@ const Hero = () => {
 					</Button>
 				</Wrapper>
 			</Box>
-			<Img src={troy} alt="troy" radtl="5px" radbl="5px" b width="40%" height="auto" margin="0 auto" elevation="3" position="absolute" top="150px" right="0" zIndex="3" />
+			<Img src={troy} alt="troy" radtl="4px" radbl="4px" b width="40%" height="auto" margin="0 auto" elevation="3" position="absolute" top="150px" right="0" zIndex="3" />
 		</Section>
 	)
 }

@@ -3,7 +3,8 @@ import { css } from "styled-components"
 const borders = {
 	default: "",
 	solid: "10px solid #f4877a",
-	grn: "10px solid lightgreen"
+	grn: "10px solid lightgreen",
+	card: "4px solid #002b44"
 }
 // const radius = {
 // 	round: "50%",
