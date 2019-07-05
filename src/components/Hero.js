@@ -1,23 +1,27 @@
 import React from "react"
-import { Section, Heading, Wrapper, Button, FlexCol } from "../base"
+import { Section, Heading, Wrapper, Button, Img, Box } from "../base"
+import troy from "../img/troy.jpg"
 
 const Hero = () => {
 	return (
-		<Section>
+		<Section bg="#002b44" height="55vh" position="relative" bb="solid">
+				<Box as="div" pad="xl">
 			<Wrapper contain>
-				<FlexCol xs="12">
-					<Heading color="primary" font="xl" pt="xxl" center>
-						Hello!
+					<Heading color="light" font="hu" pt="xxl">
+					Hello!
 					</Heading>
-					<Heading color="dark" font="lg" pt="lg" center>
-						My name is Troy.
+					<Heading color="light" font="hu">
+					My name is <span style={{color: 'lightgreen'}}>Troy.</span>
 					</Heading>
-					<Heading color="dark" font="sm3" pt="md" pb="md" center>
-						I'm a developer from Connecticut.
+					<Heading color="light" font="lg3" pb="md">
+						I <code style={{fontSize: "6.0rem"}}>code</code> for fun and profit.
 					</Heading>
-					<Button>Get In Touch</Button>
-				</FlexCol>
+					<Button mode="primary" width="250px">
+						Get In Touch
+					</Button>
 			</Wrapper>
+				</Box>
+			<Img src={troy} alt="troy" radtl="5px" radbl="5px" b width="40%" height="auto" margin="0 auto" elevation="3" position="absolute" top="150px" right="0" zIndex="3" />
 		</Section>
 	)
 }

@@ -1,8 +1,9 @@
 import { css } from "styled-components"
 
 const borders = {
-	default: "none",
-	solid: "5px solid blue",
+	default: "",
+	solid: "10px solid #f4877a",
+	grn: "10px solid lightgreen"
 }
 // const radius = {
 // 	round: "50%",

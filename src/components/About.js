@@ -1,29 +1,30 @@
 import React from "react"
-import { Section, Heading, Text, Img, FlexCol, FlexRow } from "../base"
-import troy from "../img/troy.jpg"
+import { Section, Heading, Wrapper, Text, FlexCol, FlexRow } from "../base"
 
 const About = () => {
 	return (
-		<Section mar="sm">
+		<Section mt="sm" mb="sm">
+			<Wrapper contain>
 			<Heading font="xl" pb="sm" pt="md">
 				About
 			</Heading>
 			<FlexRow mb="md">
-				<FlexCol xs="7">
 					<Text pb="sm">
-						I am a 26-year-old full-stack developer from Mansfield, Connecticut (right by Uconn). I love building websites and working with computers in general, and I thoroughly
-						enjoy taking a design and making it come to life in the browser.
+						I am a 26-year-old full-stack developer from Mansfield, Connecticut (right by Uconn). I
+						love building websites and working with computers in general, and I thoroughly enjoy
+						taking a design and making it come to life in the browser.
 					</Text>
-				</FlexCol>
-				<FlexCol xs="5">
-					<Img src={troy} alt="troy" width="90%" height="auto" margin="0 auto" elevation="3" />
-				</FlexCol>
 			</FlexRow>
 			<Text pb="sm">
-				I started out as a front end developer, and using tools like React has been my main focus. Over the last few years I've expanded into back end code, particularly with
-				Python, and I find it really interesting to dig into all of the features within tools like Amazon Web Services.
+				I started out as a front end developer, and using tools like React has been my main focus.
+				Over the last few years I've expanded into back end code, particularly with Python, and I
+				find it really interesting to dig into all of the features within tools like Amazon Web
+				Services.
 			</Text>
-			<Text pb="sm">In my spare time I like watching baseball, visiting cool places, and being outside.</Text>
+			<Text pb="sm">
+				In my spare time I like watching baseball, visiting cool places, and being outside.
+			</Text>
+			</Wrapper>
 		</Section>
 	)
 }

@@ -1,9 +1,10 @@
 import React from "react"
-import { Section, Heading, Text } from "../base"
+import { Section, Heading, Wrapper, Text } from "../base"
 
 const Projects = () => {
 	return (
-		<Section mar="sm">
+		<Section mt="sm" bg="#f4f4f4">
+			<Wrapper contain>
 			<Heading size="lg" pb="md" pt="md">
 				Interesting Projects
 			</Heading>
@@ -25,6 +26,7 @@ const Projects = () => {
 			<Text size="lg" pb="md">
 				Hand-built component system with theming to make building React sites faster. This site uses a lot of its elements.
 			</Text>
+			</Wrapper>
 		</Section>
 	)
 }
