@@ -16,11 +16,40 @@ const spaces = {
 	mdBump: "3.6rem",
 	lg: "4.0rem",
 	xl: "4.8rem",
-	xxl: "5.6rem",
+	xxl: "5.6rem"
 }
 
+const pad = css`
+	@media (max-width: 667px) {
+		padding: ${props =>
+			props.pad &&
+			props.pad.includes("m:") &&
+			(!props.pad.endsWith("px")
+				? spaces[props.pad.substring(props.pad.indexOf("m:") + 2, props.pad.indexOf(":m"))]
+				: props.pad.substring(props.pad.indexOf("m:") + 2, props.pad.indexOf(":m")))};
+	}
+	@media (min-width: 668px) {
+		padding: ${props =>
+			props.pad &&
+			props.pad.includes("t:") &&
+			(!props.pad.endsWith("px")
+				? spaces[props.pad.substring(props.pad.indexOf("t:") + 2, props.pad.indexOf(":t"))]
+				: props.pad.substring(props.pad.indexOf("t:") + 2, props.pad.indexOf(":t")))};
+	}
+
+	@media (min-width: 1025px) {
+		padding: ${props =>
+			props.pad &&
+			props.pad.includes("l:") &&
+			(!props.pad.endsWith("px")
+				? spaces[props.pad.substring(props.pad.indexOf("l:") + 2, props.pad.indexOf(":l"))]
+				: props.pad.substring(props.pad.indexOf("l:") + 2, props.pad.indexOf(":l")))};
+	}
+	padding: ${props => spaces[props.pad]};
+`
+
 export const spacingSizes = css`
-	padding: ${props => (props.pad && !props.pad.endsWith("px") ? spaces[props.pad] : props.pad)};
+	${pad};
 	padding-top: ${props => (props.pt && !props.pt.endsWith("px") ? spaces[props.pt] : props.pt)};
 	padding-right: ${props => (props.pr && !props.pr.endsWith("px") ? spaces[props.pr] : props.pr)};
 	padding-bottom: ${props => (props.pb && !props.pb.endsWith("px") ? spaces[props.pb] : props.pb)};

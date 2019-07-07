@@ -725,3 +725,48 @@ export const fontWeight = css`
 			? `${props.font.substr(2)}00`
 			: props.fontWeight};
 `
+
+const spaces = {
+	none: "0",
+	bump: "0.4rem",
+	xxs: "0.8rem",
+	xxsBump: "1.2rem",
+	xs: "1.6rem",
+	xsBump: "2.0rem",
+	sm: "2.4rem",
+	smBump: "2.8rem",
+	md: "3.2rem",
+	mdBump: "3.6rem",
+	lg: "4.0rem",
+	xl: "4.8rem",
+	xxl: "5.6rem"
+}
+
+export const pad = css`
+	@media (max-width: 667px) {
+		padding: ${props =>
+			props.pad &&
+			props.pad.includes("m:") &&
+			(!props.pad.endsWith("px")
+				? spaces[props.pad.substring(props.pad.indexOf("m:") + 2, props.pad.indexOf(":m"))]
+				: props.pad.substring(props.pad.indexOf("m:") + 2, props.pad.indexOf(":m")))};
+	}
+	@media (min-width: 668px) {
+		padding: ${props =>
+			props.pad &&
+			props.pad.includes("t:") &&
+			(!props.pad.endsWith("px")
+				? spaces[props.pad.substring(props.pad.indexOf("t:") + 2, props.pad.indexOf(":t"))]
+				: props.pad.substring(props.pad.indexOf("t:") + 2, props.pad.indexOf(":t")))};
+	}
+
+	@media (min-width: 1025px) {
+		padding: ${props =>
+			props.pad &&
+			props.pad.includes("l:") &&
+			(!props.pad.endsWith("px")
+				? spaces[props.pad.substring(props.pad.indexOf("l:") + 2, props.pad.indexOf(":l"))]
+				: props.pad.substring(props.pad.indexOf("l:") + 2, props.pad.indexOf(":l")))};
+	}
+	padding: ${props => props.pad};
+`
