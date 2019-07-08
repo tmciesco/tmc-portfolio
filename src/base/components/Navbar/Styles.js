@@ -42,7 +42,7 @@ export const NavbarStyles = styled.header`
 	${props =>
 		props.boxShadow &&
 		css`
-			box-shadow: 0 10px 40px ${colors.primaryS50}88;
+			box-shadow: 0 0 1px rgba(67, 90, 111, 0.3), 0 16px 24px -8px rgba(67, 90, 111, 0.47);
 		`}
 `
 

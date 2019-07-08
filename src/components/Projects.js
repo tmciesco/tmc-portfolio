@@ -26,7 +26,9 @@ const Projects = () => {
 							laboriosam saepe cupiditate alias repellat ratione ipsa! Vel corporis impedit quia
 							fuga repudiandae ex officia tenetur autem, debitis ad possimus non voluptas.
 						</Text>
-						<Button>Visit Site</Button>
+						<a href="https://www.nicabm.com">
+							<Button>Visit Site</Button>
+						</a>
 					</FlexCol>
 				</FlexRow>
 				<FlexRow mt="xl" mb="xl" pt="xl" pb="xl">
@@ -41,7 +43,9 @@ const Projects = () => {
 							saepe cupiditate alias repellat ratione ipsa! Vel corporis impedit quia fuga
 							repudiandae ex officia tenetur autem, debitis ad possimus non voluptas.
 						</Text>
-						<Button>Visit Site</Button>
+						<a href="https://www.lendger.io">
+							<Button>Visit Site</Button>
+						</a>
 					</FlexCol>
 					<FlexCol xs="3">
 						<Img src={lendgerLogo} height="300px" width="auto" />
@@ -63,7 +67,9 @@ const Projects = () => {
 							corporis impedit quia fuga repudiandae ex officia tenetur autem, debitis ad possimus
 							non voluptas.
 						</Text>
-						<Button>Visit Repo</Button>
+						<a href="https://www.github.com/tmciesco/styleguide-sandbox">
+							<Button>Visit Site</Button>
+						</a>
 					</FlexCol>
 				</FlexRow>
 			</Wrapper>

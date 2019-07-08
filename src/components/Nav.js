@@ -1,10 +1,14 @@
 import React from "react"
-import { Navbar, NavbarList, NavbarItem } from "../base"
+import { Navbar, NavbarLogo, NavbarList, NavbarItem, Img } from "../base"
+import tmcLogo from "../img/tmc-logo3.png"
 
 const Nav = () => {
 	return (
 		<>
-			<Navbar pt="xs" pb="xs" style={{ zIndex: "4" }} fixed scrollBg="#002b44">
+			<Navbar pt="sm" pb="sm" style={{ zIndex: "4" }} fixed scrollBg="#002b44">
+				<NavbarLogo>
+					<Img src={tmcLogo} height="50px" width="auto" />
+				</NavbarLogo>
 				<NavbarList>
 					<NavbarItem color="light">About</NavbarItem>
 					<NavbarItem color="light">Skills</NavbarItem>

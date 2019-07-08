@@ -4,8 +4,8 @@ import troy from "../img/troy.jpg"
 
 const Hero = () => {
 	return (
-		<Section bg="#002b44" minHeight="55vh" position="relative" bb="solid">
-			<Box as="div">
+		<Section bg="#002b44" minHeight="55vh" pt="xl" position="relative" bb="solid">
+			<Box as="div" pt="xl" pb="xl">
 				<Wrapper style={{ width: "1024px", minWidth: "80%" }}>
 					<Heading color="light" font="hu" pt="xxl">
 						Hello!
@@ -21,7 +21,21 @@ const Hero = () => {
 					</Button>
 				</Wrapper>
 			</Box>
-			<Img src={troy} alt="troy" radtl="4px" radbl="4px" b width="40%" height="auto" margin="0 auto" elevation="3" position="absolute" top="150px" right="0" zIndex="3" />
+			<Img
+				src={troy}
+				alt="troy"
+				radtl="4px"
+				radbl="4px"
+				b
+				width="40%"
+				height="auto"
+				margin="0 auto"
+				elevation="3"
+				position="absolute"
+				top="150px"
+				right="0"
+				zIndex="3"
+			/>
 		</Section>
 	)
 }
