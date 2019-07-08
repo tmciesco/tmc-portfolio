@@ -10,7 +10,7 @@ const Skills = () => {
 				</Heading>
 				<FlexRow mb="xl">
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="lightgreen" pad="xl" width="300px">
+						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
 							<Text font="lg" textAlign="center" pb="lg">
 								Design
 							</Text>
@@ -23,7 +23,7 @@ const Skills = () => {
 						</Box>
 					</FlexCol>
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="lightgreen" pad="xl" width="300px">
+						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
 							<Text font="lg" textAlign="center" pb="lg">
 								Front End
 							</Text>
@@ -36,7 +36,7 @@ const Skills = () => {
 						</Box>
 					</FlexCol>
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="lightgreen" pad="xl" width="300px">
+						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
 							<Text font="lg" textAlign="center" pb="lg">
 								Back End
 							</Text>
@@ -51,7 +51,7 @@ const Skills = () => {
 				</FlexRow>
 				<FlexRow mt="xl">
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="lightgreen" pad="xl" width="300px">
+						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
 							<Text font="lg" textAlign="center" pb="lg">
 								Database &amp; APIs
 							</Text>
@@ -64,7 +64,7 @@ const Skills = () => {
 						</Box>
 					</FlexCol>
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="lightgreen" pad="xl" width="300px">
+						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
 							<Text font="lg" textAlign="center" pb="lg">
 								Misc. Tech
 							</Text>
@@ -77,7 +77,7 @@ const Skills = () => {
 						</Box>
 					</FlexCol>
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="lightgreen" pad="xl" width="300px">
+						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
 							<Text font="lg" textAlign="center" pb="lg">
 								Soft Skills
 							</Text>
