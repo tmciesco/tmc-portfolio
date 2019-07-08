@@ -9,7 +9,7 @@ import rgqlLogo from "../img/rgqlacademy.png"
 const Work = () => {
 	return (
 		<Section mar="sm">
-			<Wrapper contain>
+			<Wrapper style={{ width: "75%" }}>
 				<Heading font="xl" pb="sm" pt="md">
 					Relevant Experience
 				</Heading>

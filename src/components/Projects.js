@@ -7,19 +7,19 @@ import lendgerLogo from "../img/lendger.png"
 const Projects = () => {
 	return (
 		<Section mt="sm" bg="#f4f4f4">
-			<Wrapper contain>
-				<Heading size="lg" pb="md" pt="md">
+			<Wrapper style={{ width: "75%" }}>
+				<Heading font="xl" pb="lg" pt="md">
 					Interesting Projects
 				</Heading>
-				<FlexRow pb="lg">
+				<FlexRow mt="xl" mb="xl" pt="xl" pb="xl">
 					<FlexCol xs="3">
 						<Img src={nicabmLogo} height="300px" width="auto" />
 					</FlexCol>
 					<FlexCol xs="6">
-						<Heading pb="xs" size="sm">
+						<Heading pb="xs" font="sm">
 							NICABM
 						</Heading>
-						<Text size="lg" pb="md">
+						<Text pb="md">
 							Training for mental health professionals. Rebuilt with a team of 4 in summer 2018.
 							Live site. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias maxime
 							non quia a qui at cum iusto quo voluptatem officia laudantium pariatur quibusdam,
@@ -29,15 +29,12 @@ const Projects = () => {
 						<Button>Visit Site</Button>
 					</FlexCol>
 				</FlexRow>
-				<FlexRow pb="lg" pt="md">
-					<FlexCol xs="3">
-						<Img src={lendgerLogo} height="300px" width="auto" />
-					</FlexCol>
+				<FlexRow mt="xl" mb="xl" pt="xl" pb="xl">
 					<FlexCol xs="6">
-						<Heading pb="xs" size="sm">
+						<Heading pb="xs" font="sm">
 							Lendger
 						</Heading>
-						<Text size="lg" pb="md">
+						<Text pb="md">
 							A blockchain-based real estate crowdfunding platfrom. Under production - private repo.
 							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias maxime non quia a
 							qui at cum iusto quo voluptatem officia laudantium pariatur quibusdam, laboriosam
@@ -46,16 +43,19 @@ const Projects = () => {
 						</Text>
 						<Button>Visit Site</Button>
 					</FlexCol>
+					<FlexCol xs="3">
+						<Img src={lendgerLogo} height="300px" width="auto" />
+					</FlexCol>
 				</FlexRow>
-				<FlexRow pb="lg" pt="md">
+				<FlexRow mt="xl" mb="xl" pt="xl" pb="xl">
 					<FlexCol xs="3">
 						<ReactLogo height="300px" width="auto" />
 					</FlexCol>
 					<FlexCol xs="6">
-						<Heading pb="xs" size="sm">
+						<Heading pb="xs" font="sm">
 							Design System for React
 						</Heading>
-						<Text size="lg" pb="md">
+						<Text pb="md">
 							Hand-built component system with theming to make building React sites faster. This
 							site uses a lot of its elements. Lorem ipsum dolor, sit amet consectetur adipisicing
 							elit. Molestias maxime non quia a qui at cum iusto quo voluptatem officia laudantium
