@@ -4,7 +4,18 @@ import { ThemeProvider } from "styled-components"
 import GlobalStyle from "./base/GlobalStyle"
 import { Box } from "./base"
 import theme from "./base/Theme"
-import { Hero, About, Skills, Stack, Work, Projects, Contact, FunFacts, Now } from "./components"
+import {
+	Nav,
+	Hero,
+	About,
+	Skills,
+	Stack,
+	Work,
+	Projects,
+	Contact,
+	FunFacts,
+	Now
+} from "./components"
 
 const StyledApp = styled.div``
 
@@ -14,6 +25,7 @@ function App() {
 			<StyledApp>
 				<GlobalStyle />
 				<Box as="div" className="main" position="relative">
+					<Nav />
 					<Hero />
 					<div>
 						<About />
