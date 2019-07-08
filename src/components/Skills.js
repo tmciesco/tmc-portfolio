@@ -3,7 +3,7 @@ import { Section, Heading, Wrapper, Box, Text, FlexCol, FlexRow } from "../base"
 
 const Skills = () => {
 	return (
-		<Section mar="sm">
+		<Section mt="sm" mb="sm">
 			<Wrapper style={{ width: "75%" }}>
 				<Heading font="xl" pb="sm" pt="md">
 					Skills
