@@ -2,7 +2,7 @@ import { css } from "styled-components"
 
 const borders = {
 	default: "",
-	solid: "10px solid #f4877a",
+	solid: "10px solid #34c6f4",
 	grn: "10px solid lightgreen",
 	card: "4px solid #002b44"
 }

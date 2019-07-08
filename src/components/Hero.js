@@ -4,7 +4,7 @@ import troy from "../img/troy.jpg"
 
 const Hero = () => {
 	return (
-		<Section bg="#002b44" minHeight="55vh" pt="xl" position="relative" bb="solid">
+		<Section bg="#002b44" minHeight="55vh" pt="xl" position="relative" bb="grn">
 			<Box as="div" pt="xl" pb="xl">
 				<Wrapper style={{ width: "1024px", minWidth: "80%" }}>
 					<Heading color="light" font="hu" pt="xxl">
