@@ -4,6 +4,8 @@ const borders = {
 	default: "",
 	solid: "10px solid #34c6f4",
 	grn: "10px solid lightgreen",
+	ylw: "10px solid #F5D130",
+	lightblue: "10px solid #8FBCE6",
 	card: "4px solid #002b44"
 }
 // const radius = {
