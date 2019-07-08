@@ -11,7 +11,7 @@ const Work = () => {
 		<Section mar="sm">
 			<Wrapper style={{ width: "75%" }}>
 				<Heading font="xl" pb="sm" pt="md">
-					Relevant Experience
+					Experience
 				</Heading>
 				<Heading font="lg" pb="sm" pt="md" textAlign="center">
 					Employment
