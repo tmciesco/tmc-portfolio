@@ -26,9 +26,9 @@ export const BoxElevations = Object.keys(boxElevations)
 Box.propTypes = {
 	/** @ignore */
 	children: PropTypes.node,
-	elevation: PropTypes.oneOf(BoxElevations),
+	elevation: PropTypes.oneOf(BoxElevations)
 }
 
 Box.defaultProps = {
-	as: "span",
+	as: "div"
 }

@@ -4,10 +4,9 @@ import { ThemeProvider } from "styled-components"
 import GlobalStyle from "./base/GlobalStyle"
 import { Box } from "./base"
 import theme from "./base/Theme"
-import { Hero, About, Skills, Stack, Work, Training, Projects, Contact, FunFacts, Now } from "./components"
+import { Hero, About, Skills, Stack, Work, Projects, Contact, FunFacts, Now } from "./components"
 
-const StyledApp = styled.div`
-`
+const StyledApp = styled.div``
 
 function App() {
 	return (
@@ -22,12 +21,11 @@ function App() {
 						<Stack />
 						<Projects />
 						<Work />
-						<Training />
 						<Contact />
-					<FunFacts />
-					<Now />
+						<FunFacts />
+						<Now />
 					</div>
-					<Box as="div" position="absolute" top="0" right="40px" height="100%" width="100px" bg="#f4877a" zIndex="2" />
+					{/* <Box as="div" position="absolute" top="0" right="40px" height="100%" width="100px" bg="#f4877a" zIndex="2" /> */}
 				</Box>
 			</StyledApp>
 		</ThemeProvider>
