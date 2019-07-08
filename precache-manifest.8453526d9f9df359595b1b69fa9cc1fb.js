@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1a1110d91bf3482986243396eeca50d6",
+    "revision": "cafb0891af14c27bac1e11560b58b86b",
     "url": "/tmc-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmc-portfolio/static/js/2.eae45278.chunk.js"
   },
   {
-    "revision": "a216ae9932ce6219e7e9",
-    "url": "/tmc-portfolio/static/js/main.48c55705.chunk.js"
+    "revision": "55f660f7ab3e38d4123f",
+    "url": "/tmc-portfolio/static/js/main.ed87c83f.chunk.js"
   },
   {
     "revision": "c7ff81b9d6c81789520f",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2b198c236f34cd1809c6995a6bc67f2f",
     "url": "/tmc-portfolio/static/media/sinoc-logo.2b198c23.png"
+  },
+  {
+    "revision": "371e1a9a18709eae36b342e8be1f7374",
+    "url": "/tmc-portfolio/static/media/tmc-logo4.371e1a9a.png"
   },
   {
     "revision": "ae9afe891d0320709ef6e704705570db",
