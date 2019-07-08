@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/tmc-portfolio/static/js/main.3818ab45.chunk.js",
+    "main.js.map": "/tmc-portfolio/static/js/main.3818ab45.chunk.js.map",
+    "runtime~main.js": "/tmc-portfolio/static/js/runtime~main.54d6c6f3.js",
+    "runtime~main.js.map": "/tmc-portfolio/static/js/runtime~main.54d6c6f3.js.map",
+    "static/js/2.081fe80f.chunk.js": "/tmc-portfolio/static/js/2.081fe80f.chunk.js",
+    "static/js/2.081fe80f.chunk.js.map": "/tmc-portfolio/static/js/2.081fe80f.chunk.js.map",
+    "index.html": "/tmc-portfolio/index.html",
+    "precache-manifest.93902bbf53d9690797ebab5faee0a251.js": "/tmc-portfolio/precache-manifest.93902bbf53d9690797ebab5faee0a251.js",
+    "service-worker.js": "/tmc-portfolio/service-worker.js",
+    "static/media/troy.jpg": "/tmc-portfolio/static/media/troy.ae9afe89.jpg"
+  }
+}
