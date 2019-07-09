@@ -93,13 +93,15 @@ const Work = () => {
 						<Text pt="sm" pb="xs" font="lg7">
 							React GraphQL Academy
 						</Text>
+						<Text>London, England</Text>
 						<Text pb="xs" font="sm">
 							<em>Dec 2018</em>
 						</Text>
-						<Text>
-							This is an intensive one-week bootcamp covering React, Redux, GraphQL, and more. It’s
-							designed for experienced web developers.
-						</Text>
+						<List pl="lg" pb="sm">
+							<ListItem>One week on-site training for experienced web developers</ListItem>
+							<ListItem>Topics covered include React, Redux, GraphQL, etc.</ListItem>
+							<ListItem>Final project was the start of the design system mentioned above</ListItem>
+						</List>
 					</FlexCol>
 				</FlexRow>
 			</Wrapper>
