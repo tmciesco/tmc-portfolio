@@ -32,7 +32,8 @@ const About = () => {
 					What I'm Doing Now (July 2019)
 				</Heading>
 				<Text pb="sm" ml="sm">
-					Right now I work as a full-stack developer at Sinoc and I'm training for a half marathon.
+					Right now I work as a full-stack developer at Sinoc and I'm looking for a new outdoor
+					activity after completing a half-marathon in June.
 				</Text>
 			</Wrapper>
 		</Section>
