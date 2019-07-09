@@ -1,7 +1,7 @@
 import React from "react"
 import { Section, Heading, Wrapper, FlexRow, FlexCol, Text, Img, Button } from "../base"
 import { ReactLogo } from "./ReactLogo"
-import nicabmLogo from "../img/nicabm.png"
+import nicabmLogo from "../img/nicabm-blue.jpg"
 import lendgerLogo from "../img/lendger.png"
 
 const Projects = () => {

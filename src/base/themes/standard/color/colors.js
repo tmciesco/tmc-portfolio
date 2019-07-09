@@ -1,6 +1,6 @@
 const colors = {
 	// Brand
-	primary: "#07a5de",
+	primary: "#092C5C",
 	primaryT10: "#20aee1",
 	primaryT20: "#39b7e5",
 	primaryT30: "#51c0e8",

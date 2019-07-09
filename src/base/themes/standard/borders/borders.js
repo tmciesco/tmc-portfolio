@@ -5,8 +5,11 @@ const borders = {
 	solid: "10px solid #34c6f4",
 	grn: "10px solid lightgreen",
 	ylw: "10px solid #F5D130",
-	lightblue: "10px solid #8FBCE6",
-	card: "4px solid #002b44"
+	grncard: "4px solid #6eb43f",
+	darkblue: "4px solid #092C5C",
+	lightblue: "4px solid #8FBCE6",
+	purcard: "4px solid #555091",
+	card: "4px solid #092C5C"
 }
 // const radius = {
 // 	round: "50%",

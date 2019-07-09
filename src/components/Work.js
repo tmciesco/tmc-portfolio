@@ -1,7 +1,7 @@
 import React from "react"
 import { Heading, Text, Section, Wrapper, List, ListItem, Img, FlexRow, FlexCol } from "../base"
 import sinocLogo from "../img/sinoc-logo.png"
-import nicabmLogo from "../img/nicabm.png"
+import nicabmLogo from "../img/nicabm-blue.jpg"
 import ellingtonLogo from "../img/ellington.png"
 import usarLogo from "../img/usar-logo.png"
 import rgqlLogo from "../img/rgqlacademy.png"

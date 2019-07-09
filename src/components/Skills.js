@@ -1,5 +1,12 @@
 import React from "react"
 import { Section, Heading, Wrapper, Box, Text, FlexCol, FlexRow } from "../base"
+import { SkillCard } from './SkillCard'
+import design from '../img/design.jpg'
+import frontEnd from '../img/front-end.jpg'
+import backEnd from '../img/back-end.jpg'
+import database from '../img/database.jpg'
+import miscTech from '../img/misc-tech.jpg'
+import softSkills from '../img/soft-skills.jpg'
 
 const Skills = () => {
 	return (
@@ -10,84 +17,24 @@ const Skills = () => {
 				</Heading>
 				<FlexRow mb="xl">
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
-							<Text font="lg" textAlign="center" pb="lg">
-								Design
-							</Text>
-							<Text font="sm" textAlign="center">
-								Photoshop, InDesign
-							</Text>
-							<Text font="sm" textAlign="center">
-								Illustrator, XD
-							</Text>
-						</Box>
+						<SkillCard title="Design" skill1="XD" skill2="Photoshop" skill3="Illustrator" skill4="InDesign" bgImg={design} />
 					</FlexCol>
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
-							<Text font="lg" textAlign="center" pb="lg">
-								Front End
-							</Text>
-							<Text font="sm" textAlign="center">
-								HTML, CSS/SCSS
-							</Text>
-							<Text font="sm" textAlign="center">
-								JavaScript, React
-							</Text>
-						</Box>
+						<SkillCard title="Front End" skill1="HTML" skill2="CSS/SCSS" skill3="JavaScript" skill4="React" bgImg={frontEnd} />
 					</FlexCol>
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
-							<Text font="lg" textAlign="center" pb="lg">
-								Back End
-							</Text>
-							<Text font="sm" textAlign="center">
-								Python, Django
-							</Text>
-							<Text font="sm" textAlign="center">
-								Node.js, Express
-							</Text>
-						</Box>
+						<SkillCard title="Back End" skill1="Python" skill2="Django" skill3="Node.js" skill4="Express" bgImg={backEnd} />
 					</FlexCol>
 				</FlexRow>
 				<FlexRow mt="xl">
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
-							<Text font="lg" textAlign="center" pb="lg">
-								Database &amp; APIs
-							</Text>
-							<Text font="sm" textAlign="center">
-								MySQL, PostgreSQL
-							</Text>
-							<Text font="sm" textAlign="center">
-								GraphQL, REST
-							</Text>
-						</Box>
+					<SkillCard title="Database" skill1="MySQL" skill2="PostgreSQL" skill3="GraphQL" skill4="REST" bgImg={database} />
 					</FlexCol>
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
-							<Text font="lg" textAlign="center" pb="lg">
-								Misc. Tech
-							</Text>
-							<Text font="sm" textAlign="center">
-								AWS, Wordpress
-							</Text>
-							<Text font="sm" textAlign="center">
-								Agile/Scrum, Blockchain
-							</Text>
-						</Box>
+					<SkillCard title="Misc. Tech" skill1="AWS" skill2="Wordpress" skill3="Agile/Scrum" skill4="Blockchain" bgImg={miscTech} />
 					</FlexCol>
 					<FlexCol xs="12" lg="3">
-						<Box as="div" elevation="2" bor="card" rad="4px" bg="#92BEE7" pad="xl" width="300px">
-							<Text font="lg" textAlign="center" pb="lg">
-								Soft Skills
-							</Text>
-							<Text font="sm" textAlign="center">
-								Communication, Teamwork
-							</Text>
-							<Text font="sm" textAlign="center">
-								Leadership, Enthusiasm
-							</Text>
-						</Box>
+					<SkillCard title="Soft Skills" skill1="Enthusiasm" skill2="Communication" skill3="Teamwork" skill4="Leadership" bgImg={softSkills} />
 					</FlexCol>
 				</FlexRow>
 			</Wrapper>
