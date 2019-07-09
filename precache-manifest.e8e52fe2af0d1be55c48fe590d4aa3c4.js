@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e3456940e85efad98ee23a2f7c3ee45",
+    "revision": "9daed8be56736c3174b0ef9624bd95ca",
     "url": "/tmc-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmc-portfolio/static/js/2.bdc56d9c.chunk.js"
   },
   {
-    "revision": "73d9979c5c12a7361d13",
-    "url": "/tmc-portfolio/static/js/main.26d9e50c.chunk.js"
+    "revision": "f9d11e33f817ccb08897",
+    "url": "/tmc-portfolio/static/js/main.fe8e0e07.chunk.js"
   },
   {
     "revision": "c7ff81b9d6c81789520f",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tmc-portfolio/static/media/soft-skills.a3cb769f.jpg"
   },
   {
-    "revision": "371e1a9a18709eae36b342e8be1f7374",
-    "url": "/tmc-portfolio/static/media/tmc-logo4.371e1a9a.png"
+    "revision": "7faa738e9b05c91619cdd65d6eb82d1b",
+    "url": "/tmc-portfolio/static/media/tmc-logo.7faa738e.png"
   },
   {
     "revision": "ae9afe891d0320709ef6e704705570db",
