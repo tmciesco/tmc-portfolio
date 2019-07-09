@@ -18,7 +18,7 @@ export const buttonModes = {
 	secondary: css`
 		background-color: ${colors.secondary};
 		border: 1px solid ${colors.secondary};
-		color: ${colors.white};
+		color: ${colors.dark};
 
 		&:hover {
 			background-color: ${colors.secondaryS20};
@@ -68,7 +68,7 @@ export const buttonModes = {
 			background-color: ${colors.infoS20};
 			border: 1px solid ${colors.infoS20};
 		}
-	`,
+	`
 }
 
 export const buttonSizes = {
@@ -83,7 +83,7 @@ export const buttonSizes = {
 	large: css`
 		${fontSizes.size2};
 		padding: 1rem 1.5rem;
-	`,
+	`
 }
 
 export const buttonStyles = css`

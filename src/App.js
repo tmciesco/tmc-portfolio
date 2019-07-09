@@ -22,8 +22,8 @@ function App() {
 						<Stack />
 						<Projects />
 						<Work />
-						<Contact />
 						<FunFacts />
+						<Contact />
 					</div>
 					{/* <Box as="div" position="absolute" top="0" right="40px" height="100%" width="100px" bg="#f4877a" zIndex="2" /> */}
 				</Box>

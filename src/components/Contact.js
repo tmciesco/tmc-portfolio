@@ -3,16 +3,46 @@ import { Heading, Text, Wrapper, FlexRow, FlexCol, Section, Button } from "../ba
 
 const Contact = () => {
 	return (
-		<Section>
+		<Section pb="xl" bg="#092C5C">
 			<Wrapper style={{ width: "75%" }}>
-				<Heading font="xl" pb="sm" pt="md">
+				<Heading font="xl" pb="sm" pt="md" color="light">
 					Contact
 				</Heading>
-				<Text pb="sm">tmciesco@gmail.com</Text>
-				<Text pb="sm">802-793-4933</Text>
-				<Text pb="sm">linkedin.com/in/troyciesco</Text>
-				<Text pb="sm">github.com/tmciesco</Text>
-				<Button>Download Resume</Button>
+				<FlexRow mb="sm">
+					<FlexCol xs="3">
+						<Heading font="sm3" pb="xs" textAlign="center" color="light">
+							Email
+						</Heading>
+						<Text pb="sm" fontAlign="center" color="light">
+							tmciesco@gmail.com
+						</Text>
+					</FlexCol>
+					<FlexCol xs="3">
+						<Heading font="sm3" pb="xs" textAlign="center" color="light">
+							Phone
+						</Heading>
+						<Text pb="sm" fontAlign="center" color="light">
+							802-793-4933
+						</Text>
+					</FlexCol>
+					<FlexCol xs="3">
+						<Heading font="sm3" pb="xs" textAlign="center" color="light">
+							LinkedIn
+						</Heading>
+						<Text pb="sm" fontAlign="center" color="light">
+							linkedin.com/in/troyciesco
+						</Text>
+					</FlexCol>
+					<FlexCol xs="3">
+						<Heading font="sm3" pb="xs" textAlign="center" color="light">
+							Github
+						</Heading>
+						<Text pb="sm" fontAlign="center" color="light">
+							github.com/tmciesco
+						</Text>
+					</FlexCol>
+				</FlexRow>
+				<Button mode="secondary">Download Resume</Button>
 			</Wrapper>
 		</Section>
 	)

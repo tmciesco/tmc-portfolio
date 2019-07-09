@@ -20,7 +20,7 @@ const colors = {
 	primaryS80: "#01212c",
 	primaryS90: "#011016",
 
-	secondary: "#38b053",
+	secondary: "#92BEE7",
 	secondaryT10: "#4cb864",
 	secondaryT20: "#60c075",
 	secondaryT30: "#74c887",
