@@ -71,8 +71,8 @@ const Projects = () => {
 							the repo for this site for the latest), and eventually I'll release it as an npm
 							package.
 						</Text>
-						<a href="https://www.github.com/tmciesco/tmc-portfolio/src/base">
-							<Button>Visit Site</Button>
+						<a href="https://github.com/tmciesco/tmc-portfolio/tree/master/src/base">
+							<Button>Visit Repo</Button>
 						</a>
 					</FlexCol>
 				</FlexRow>

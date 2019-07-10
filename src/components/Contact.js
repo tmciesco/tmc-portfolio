@@ -42,7 +42,9 @@ const Contact = () => {
 						</Text>
 					</FlexCol>
 				</FlexRow>
-				<Button mode="secondary">Download Resume</Button>
+				<Button mode="secondary" mar="contain" display="block">
+					Download Resume
+				</Button>
 			</Wrapper>
 		</Section>
 	)
