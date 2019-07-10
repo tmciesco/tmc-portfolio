@@ -3,7 +3,7 @@ import { Heading, Box, Text, FlexCol } from "../base"
 
 const SkillCard = ({ children, title, skill1, skill2, skill3, skill4, bgImg, ...props }) => {
 	return (
-		<Box as="div" elevation="2" bor="card" mb="m:sm:mt:0px:t" rad="4px" width="300px">
+		<Box as="div" elevation="2" bor="card" mb="m:sm:mt:sm:tl:0px:l" rad="4px" width="300px">
 			<Box bg={`url(${bgImg})`} height="150px" position="relative" bb="darkblue">
 				<Box
 					position="absolute"

@@ -15,8 +15,8 @@ const Skills = () => {
 				<Heading font="xl" pb="sm" pt="md">
 					Skills
 				</Heading>
-				<FlexRow mb="m:0px:mt:xl:t">
-					<FlexCol xs="12" lg="3">
+				<FlexRow mb="m:0px:mt:0px:tl:xl:l">
+					<FlexCol xs="12" sm="12" md="3" lg="3">
 						<SkillCard
 							title="Design"
 							skill1="XD"
@@ -36,7 +36,7 @@ const Skills = () => {
 							bgImg={frontEnd}
 						/>
 					</FlexCol>
-					<FlexCol xs="12" lg="3">
+					<FlexCol xs="12" sm="12" md="3" lg="3">
 						<SkillCard
 							title="Back End"
 							skill1="Python"
@@ -47,7 +47,7 @@ const Skills = () => {
 						/>
 					</FlexCol>
 				</FlexRow>
-				<FlexRow mt="m:0px:mt:xl:t">
+				<FlexRow mb="m:0px:mt:0px:tl:xl:l">
 					<FlexCol xs="12" lg="3">
 						<SkillCard
 							title="Database"

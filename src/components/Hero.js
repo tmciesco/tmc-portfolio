@@ -7,13 +7,13 @@ const Hero = () => {
 		<Section bg="#92BEE7" minHeight="65vh" pt="xl" position="relative" bb="ylw">
 			<Box as="div" pt="xl" pb="xl">
 				<Wrapper width="m:90%:mt:80%:tl:75%:l">
-					<Heading color="dark" fontM="lg" fontT="hu" pt="xxl">
+					<Heading color="dark" fontM="lg" fontT="lg" fontL="hu" pt="xxl">
 						Hello!
 					</Heading>
-					<Heading color="dark" fontM="md" fontT="hu">
+					<Heading color="dark" fontM="md" fontT="lg" fontL="hu">
 						My name is <span style={{ color: "#f6f8ff", textShadow: "-2px 4px #004637" }}>Troy</span>.
 					</Heading>
-					<Heading color="dark" fontM="xs" fontT="lg" fontWeight="3" pb="md">
+					<Heading color="dark" fontM="xs" fontT="md" fontL="lg" fontWeight="3" pb="md">
 						I <code style={{ fontSize: "6.0rem" }}>code</code> for fun and profit.
 					</Heading>
 					<Button mode="primary" width="20rem">
