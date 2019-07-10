@@ -21,7 +21,7 @@ const DrawerToggleButtonStyles = styled.button`
 const DrawerToggleButtonLine = styled.div`
     width: 30px;
     height: 2px;
-    background: black;
+    background: white;
 `
 
 export const DrawerToggleButton = (props) => {

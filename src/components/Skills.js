@@ -10,7 +10,7 @@ import softSkills from "../img/soft-skills.jpg"
 
 const Skills = () => {
 	return (
-		<Section mt="sm" mb="sm">
+		<Section id="skills" mt="sm" mb="sm">
 			<Wrapper width="m:90%:mt:80%:tl:75%:l">
 				<Heading font="xl" pb="sm" pt="md">
 					Skills
