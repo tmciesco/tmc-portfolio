@@ -1,6 +1,7 @@
 import React from "react"
 import { Navbar, NavbarLogo, NavbarList, NavbarItem, Img } from "../base"
 import tmcLogo from "../img/tmc-logo.png"
+import { Link as ScrollLink } from 'react-scroll'
 
 const Nav = () => {
 	return (
@@ -16,14 +17,56 @@ const Nav = () => {
 				bg="#092C5C"
 			>
 				<NavbarLogo>
-					<Img src={tmcLogo} height="50px" width="auto" />
+					<ScrollLink
+						to="hero"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}>
+						<Img src={tmcLogo} display="m:none:mt:inline:t" height="50px" width="auto" />
+					</ScrollLink>
 				</NavbarLogo>
 				<NavbarList>
-					<NavbarItem color="light">About</NavbarItem>
-					<NavbarItem color="light">Skills</NavbarItem>
-					<NavbarItem color="light">Projects</NavbarItem>
-					<NavbarItem color="light">Experience</NavbarItem>
-					<NavbarItem color="light">Contact</NavbarItem>
+				<ScrollLink
+						to="about"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}>
+						<NavbarItem mobColor="dark" color="light">About</NavbarItem>
+					</ScrollLink>
+					<ScrollLink
+						to="skills"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}>
+						<NavbarItem mobColor="dark" color="light">Skills</NavbarItem>
+					</ScrollLink>
+					<ScrollLink
+						to="projects"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}>
+						<NavbarItem mobColor="dark" color="light">Projects</NavbarItem>
+					</ScrollLink>
+					<ScrollLink
+						to="experience"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}>
+						<NavbarItem mobColor="dark" color="light">Experience</NavbarItem>
+					</ScrollLink>
+					<ScrollLink
+						to="contact"
+						spy={true}
+						smooth={true}
+						offset={-70}
+						duration={500}>
+						<NavbarItem mobColor="dark" color="light">Contact</NavbarItem>
+					</ScrollLink>
 				</NavbarList>
 			</Navbar>
 		</>

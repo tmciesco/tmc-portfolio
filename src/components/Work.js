@@ -8,7 +8,7 @@ import rgqlLogo from "../img/rgqlacademy.png"
 
 const Work = () => {
 	return (
-		<Section mar="sm">
+		<Section id="experience" mar="sm">
 			<Wrapper width="m:90%:mt:80%:tl:75%:l">
 				<Heading font="xl" pb="sm" pt="md">
 					Experience

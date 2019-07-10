@@ -47,6 +47,9 @@ export const NavbarStyles = styled.header`
 `
 
 export const NavbarItemStyles = styled.li`
+	@media (max-width: 667px) {
+		color: ${props => navColors[props.mobColor]}
+	}
 	text-align: center;
 	cursor: pointer;
 	color: ${p => navColors[p.color]};

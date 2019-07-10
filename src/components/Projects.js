@@ -6,7 +6,7 @@ import lendgerLogo from "../img/lendger.png"
 
 const Projects = () => {
 	return (
-		<Section mt="sm" bg="#f4f4f4">
+		<Section id="projects" mt="sm" bg="#f4f4f4">
 			<Wrapper width="m:90%:mt:80%:tl:75%:l">
 				<Heading font="xl" pb="lg" pt="md">
 					Interesting Projects

@@ -3,7 +3,7 @@ import { Heading, Text, Wrapper, FlexRow, FlexCol, Section, Button } from "../ba
 
 const Contact = () => {
 	return (
-		<Section pb="xl" bg="#092C5C">
+		<Section id="contact" pb="xl" bg="#092C5C">
 			<Wrapper width="m:90%:mt:80%:tl:75%:l">
 				<Heading font="xl" pb="sm" pt="md" color="light">
 					Contact
@@ -46,7 +46,7 @@ const Contact = () => {
 						</a>
 					</FlexCol>
 				</FlexRow>
-				<a href="https://tmciesco-content.s3.amazonaws.com/img/troy-ciesco-resume-only.pdf">
+				<a href="https://tmciesco-content.s3.amazonaws.com/img/troyciesco-resume-2019.pdf">
 					<Button mode="secondary" mar="contain" display="block">
 						Download Resume
 					</Button>
