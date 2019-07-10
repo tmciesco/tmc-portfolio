@@ -4,7 +4,7 @@ import { Section, Heading, Wrapper, Text, FlexRow, FlexCol } from "../base"
 const FunFacts = () => {
 	return (
 		<Section>
-			<Wrapper style={{ width: "75%" }}>
+			<Wrapper width="m:90%:mt:80%:tl:75%:l">
 				<Heading font="xl" pb="sm" pt="md">
 					Fun Facts
 				</Heading>

@@ -9,7 +9,7 @@ import rgqlLogo from "../img/rgqlacademy.png"
 const Work = () => {
 	return (
 		<Section mar="sm">
-			<Wrapper style={{ width: "75%" }}>
+			<Wrapper width="m:90%:mt:80%:tl:75%:l">
 				<Heading font="xl" pb="sm" pt="md">
 					Experience
 				</Heading>
@@ -17,7 +17,7 @@ const Work = () => {
 					Employment
 				</Heading>
 				<FlexRow>
-					<FlexCol xs="3">
+					<FlexCol xs="12" sm="3">
 						<Img src={sinocLogo} height="180px" width="auto" />
 						<Text pt="sm" pb="xs" font="lg7">
 							Sinoc, Inc.
@@ -34,7 +34,7 @@ const Work = () => {
 							</ListItem>
 						</List>
 					</FlexCol>
-					<FlexCol xs="3">
+					<FlexCol xs="12" sm="3">
 						<Img src={nicabmLogo} height="180px" width="auto" />
 						<Text pt="sm" pb="xs" font="lg7">
 							NICABM
@@ -49,7 +49,7 @@ const Work = () => {
 							<ListItem>Built ~15 landing and order pages weekly; $100k avg revenue</ListItem>
 						</List>
 					</FlexCol>
-					<FlexCol xs="3">
+					<FlexCol xs="12" sm="3">
 						<Img src={ellingtonLogo} height="180px" width="auto" />
 						<Text pt="sm" pb="xs" font="lg7">
 							Ellington Planning Dept
@@ -67,7 +67,7 @@ const Work = () => {
 				</FlexRow>
 
 				<FlexRow>
-					<FlexCol xs="4">
+					<FlexCol xs="12" sm="4">
 						<Heading font="lg" pb="sm" pt="md">
 							Military
 						</Heading>
@@ -85,7 +85,7 @@ const Work = () => {
 							<ListItem>Received Four Army Achievement Medals</ListItem>
 						</List>
 					</FlexCol>
-					<FlexCol xs="4">
+					<FlexCol xs="12" sm="4">
 						<Heading font="lg" pb="sm" pt="md">
 							Training
 						</Heading>

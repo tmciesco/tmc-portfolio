@@ -21,8 +21,8 @@ function App() {
 						<Skills />
 						<Stack />
 						<Projects />
-						<Work />
 						<FunFacts />
+						<Work />
 						<Contact />
 					</div>
 					{/* <Box as="div" position="absolute" top="0" right="40px" height="100%" width="100px" bg="#f4877a" zIndex="2" /> */}

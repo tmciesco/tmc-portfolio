@@ -4,12 +4,12 @@ import { Heading, Text, Wrapper, FlexRow, FlexCol, Section, Button } from "../ba
 const Contact = () => {
 	return (
 		<Section pb="xl" bg="#092C5C">
-			<Wrapper style={{ width: "75%" }}>
+			<Wrapper width="m:90%:mt:80%:tl:75%:l">
 				<Heading font="xl" pb="sm" pt="md" color="light">
 					Contact
 				</Heading>
 				<FlexRow mb="sm">
-					<FlexCol xs="3">
+					<FlexCol xs="12" sm="3">
 						<Heading font="sm3" pb="xs" textAlign="center" color="light">
 							Email
 						</Heading>
@@ -17,7 +17,7 @@ const Contact = () => {
 							tmciesco@gmail.com
 						</Text>
 					</FlexCol>
-					<FlexCol xs="3">
+					<FlexCol xs="12" sm="3">
 						<Heading font="sm3" pb="xs" textAlign="center" color="light">
 							Phone
 						</Heading>
@@ -25,7 +25,7 @@ const Contact = () => {
 							802-793-4933
 						</Text>
 					</FlexCol>
-					<FlexCol xs="3">
+					<FlexCol xs="12" sm="3">
 						<Heading font="sm3" pb="xs" textAlign="center" color="light">
 							LinkedIn
 						</Heading>
@@ -33,7 +33,7 @@ const Contact = () => {
 							linkedin.com/in/troyciesco
 						</Text>
 					</FlexCol>
-					<FlexCol xs="3">
+					<FlexCol xs="12" sm="3">
 						<Heading font="sm3" pb="xs" textAlign="center" color="light">
 							Github
 						</Heading>

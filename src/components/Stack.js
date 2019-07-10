@@ -4,12 +4,12 @@ import { Section, Wrapper, Heading, Text, Box } from "../base"
 const Stack = () => {
 	return (
 		<Section mar="lg" pad="xs">
-			<Wrapper w={75}>
-				<Box as="div" pad="lg" bg="#555091" elevation="3" rad="4px" bor="card">
-					<Heading font="lg" pb="sm" pt="md" color="light" textAlign="center">
+			<Wrapper width="m:90%:mt:80%:tl:75%:l">
+				<Box as="div" pad="m:xs:mt:lg:t" bg="#555091" elevation="3" rad="4px" bor="card">
+					<Heading font="lg" pb="sm" pt="m:xs:mt:md:t" color="light" textAlign="center">
 						Favorite <s style={{ fontWeight: "300" }}>Snack</s> Stack
 					</Heading>
-					<Text textAlign="center" pl="xl" pr="xl" color="light">
+					<Text textAlign="center" pl="m:xs:mt:xl:t" pr="m:xs:mt:xl:t" color="light">
 						I’m not picky - I love learning whichever tool is the right one to get the job done.
 						However, my go-to stack is to use <strong>React</strong> on the front end,{" "}
 						<strong>Python</strong> and <strong>Django</strong> on the backend,{" "}

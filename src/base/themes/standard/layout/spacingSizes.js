@@ -4,6 +4,7 @@
 import { css } from "styled-components"
 
 const spaces = {
+	contain: "0 auto",
 	none: "0",
 	bump: "0.4rem",
 	xxs: "0.8rem",

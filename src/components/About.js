@@ -4,7 +4,7 @@ import { Section, Heading, Wrapper, Text } from "../base"
 const About = () => {
 	return (
 		<Section mt="sm" mb="sm">
-			<Wrapper style={{ width: "75%" }}>
+			<Wrapper width="m:90%:mt:80%:tl:75%:l">
 				<Heading font="xl" pb="sm" pt="md">
 					About
 				</Heading>

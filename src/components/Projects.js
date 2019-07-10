@@ -7,15 +7,15 @@ import lendgerLogo from "../img/lendger.png"
 const Projects = () => {
 	return (
 		<Section mt="sm" bg="#f4f4f4">
-			<Wrapper style={{ width: "75%" }}>
+			<Wrapper width="m:90%:mt:80%:tl:75%:l">
 				<Heading font="xl" pb="lg" pt="md">
 					Interesting Projects
 				</Heading>
 				<FlexRow mt="xl" mb="xl" pt="xl" pb="xl">
-					<FlexCol xs="3">
+					<FlexCol xs="12" sm="3">
 						<Img src={nicabmLogo} height="300px" width="auto" />
 					</FlexCol>
-					<FlexCol xs="6">
+					<FlexCol xs="12" sm="6">
 						<Heading pb="xs" font="sm">
 							NICABM
 						</Heading>
@@ -34,7 +34,7 @@ const Projects = () => {
 					</FlexCol>
 				</FlexRow>
 				<FlexRow mt="xl" mb="xl" pt="xl" pb="xl">
-					<FlexCol xs="6">
+					<FlexCol xs="12" sm="6">
 						<Heading pb="xs" font="sm">
 							Lendger
 						</Heading>
@@ -51,15 +51,15 @@ const Projects = () => {
 							<Button>Visit Site</Button>
 						</a>
 					</FlexCol>
-					<FlexCol xs="3">
+					<FlexCol xs="12" sm="3">
 						<Img src={lendgerLogo} height="300px" width="auto" />
 					</FlexCol>
 				</FlexRow>
 				<FlexRow mt="xl" mb="xl" pt="xl" pb="xl">
-					<FlexCol xs="3">
+					<FlexCol xs="12" sm="3">
 						<ReactLogo height="300px" width="auto" />
 					</FlexCol>
-					<FlexCol xs="6">
+					<FlexCol xs="12" sm="6">
 						<Heading pb="xs" font="sm">
 							Design System for React
 						</Heading>
