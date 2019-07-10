@@ -29,22 +29,28 @@ const Contact = () => {
 						<Heading font="sm3" pb="xs" textAlign="center" color="light">
 							LinkedIn
 						</Heading>
-						<Text pb="sm" fontAlign="center" color="light">
-							linkedin.com/in/troyciesco
-						</Text>
+						<a href="https://linkedin.com/in/troyciesco">
+							<Text pb="sm" fontAlign="center" color="secondary" style={{ textDecoration: "underline" }}>
+								linkedin.com/in/troyciesco
+							</Text>
+						</a>
 					</FlexCol>
 					<FlexCol xs="12" sm="3">
 						<Heading font="sm3" pb="xs" textAlign="center" color="light">
 							Github
 						</Heading>
-						<Text pb="sm" fontAlign="center" color="light">
-							github.com/tmciesco
-						</Text>
+						<a href="https://github.com/tmciesco">
+							<Text pb="sm" fontAlign="center" color="secondary" style={{ textDecoration: "underline" }}>
+								github.com/tmciesco
+							</Text>
+						</a>
 					</FlexCol>
 				</FlexRow>
-				<Button mode="secondary" mar="contain" display="block">
-					Download Resume
-				</Button>
+				<a href="https://tmciesco-content.s3.amazonaws.com/img/troy-ciesco-resume-only.pdf">
+					<Button mode="secondary" mar="contain" display="block">
+						Download Resume
+					</Button>
+				</a>
 			</Wrapper>
 		</Section>
 	)

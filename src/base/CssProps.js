@@ -706,6 +706,26 @@ export const left = css`
 `
 
 export const textFontSize = css`
+	@media (max-width: 667px) {
+		font-size: ${props =>
+		props.fontM && (props.fontM.length <= 3) & !props.fontM.endsWith("px")
+			? textSizes[props.fontM.substr(0, 2)]
+			: props.fontM};
+	}
+	@media (min-width: 668px) {
+		font-size: ${props =>
+		props.fontT && (props.fontT.length <= 3) & !props.fontT.endsWith("px")
+			? textSizes[props.fontT.substr(0, 2)]
+			: props.fontT};
+	}
+
+	@media (min-width: 1025px) {
+		font-size: ${props =>
+		props.fontL && (props.fontL.length <= 3) & !props.fontL.endsWith("px")
+			? textSizes[props.fontL.substr(0, 2)]
+			: props.fontL};
+	}
+	
 	font-size: ${props =>
 		props.font && (props.font.length <= 3) & !props.font.endsWith("px")
 			? textSizes[props.font.substr(0, 2)]
@@ -713,6 +733,26 @@ export const textFontSize = css`
 `
 
 export const headingFontSize = css`
+	@media (max-width: 667px) {
+		font-size: ${props =>
+		props.fontM && (props.fontM.length <= 3) & !props.fontM.endsWith("px")
+			? headingSizes[props.fontM.substr(0, 2)]
+			: props.fontM};
+	}
+	@media (min-width: 668px) {
+		font-size: ${props =>
+		props.fontT && (props.fontT.length <= 3) & !props.fontT.endsWith("px")
+			? headingSizes[props.fontT.substr(0, 2)]
+			: props.fontT};
+	}
+
+	@media (min-width: 1025px) {
+		font-size: ${props =>
+		props.fontL && (props.fontL.length <= 3) & !props.fontL.endsWith("px")
+			? headingSizes[props.fontL.substr(0, 2)]
+			: props.fontL};
+	}
+	
 	font-size: ${props =>
 		props.font && (props.font.length <= 3) & !props.font.endsWith("px")
 			? headingSizes[props.font.substr(0, 2)]
