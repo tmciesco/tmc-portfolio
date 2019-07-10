@@ -21,7 +21,7 @@ function App() {
 						<Skills />
 						<Stack />
 						<Projects />
-						<FunFacts />
+						{/* <FunFacts /> */}
 						<Work />
 						<Contact />
 					</div>
