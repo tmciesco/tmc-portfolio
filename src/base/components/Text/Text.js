@@ -5,7 +5,11 @@ import { BaseText } from "../BaseText"
 import { paragraphColors } from "./Styles"
 
 export const Text = ({ children, ...props }) => {
-	return <BaseText {...props}>{children}</BaseText>
+	return (
+		<BaseText fontFamily="Catamaran" {...props}>
+			{children}
+		</BaseText>
+	)
 }
 
 // export const ParagraphSizes = Object.keys(paragraphSizes)
