@@ -1,6 +1,7 @@
 import React from "react"
 import { Heading, Text, Section, Wrapper, List, ListItem, Img, FlexRow, FlexCol } from "../base"
 import sinocLogo from "../img/sinoc-logo.png"
+import ten24Logo from "../img/ten24.png"
 import nicabmLogo from "../img/nicabm-blue.jpg"
 import ellingtonLogo from "../img/ellington.png"
 import usarLogo from "../img/usar-logo.png"
@@ -18,20 +19,33 @@ const Work = () => {
 				</Heading>
 				<FlexRow>
 					<FlexCol xs="12" sm="3">
+						<Img src={ten24Logo} height="auto" width="180px" />
+						<Text pt="sm" pb="xs" font="lg7">
+							Ten24 Digital Solutions
+						</Text>
+						<Text>Full-Stack Developer</Text>
+						<Text pb="xs" font="sm">
+							<em>Dec 2019 - Present</em>
+						</Text>
+						<List pl="lg" pb="sm">
+							<ListItem>Technical lead for two clients; facilitate production pushes</ListItem>
+							<ListItem>Front and back-end work for new projects; support for 10+ clients</ListItem>
+							<ListItem>Angular, Coldfusion, and UI/UX work</ListItem>
+						</List>
+					</FlexCol>
+					<FlexCol xs="12" sm="3">
 						<Img src={sinocLogo} height="180px" width="auto" />
 						<Text pt="sm" pb="xs" font="lg7">
 							Sinoc, Inc.
 						</Text>
 						<Text>Full-Stack Developer</Text>
 						<Text pb="xs" font="sm">
-							<em>Nov 2018 - Present</em>
+							<em>Nov 2018 - Dec 2019</em>
 						</Text>
 						<List pl="lg" pb="sm">
 							<ListItem>Developed product launch that sold out in apx three weeks</ListItem>
-							<ListItem>Leading React and Django development for blockchain project</ListItem>
-							<ListItem>
-								Leading agile team as product owner; also in charge of two interns
-							</ListItem>
+							<ListItem>Led React and Django development for blockchain project</ListItem>
+							<ListItem>Led agile team as product owner; also in charge of two interns</ListItem>
 						</List>
 					</FlexCol>
 					<FlexCol xs="12" sm="3">

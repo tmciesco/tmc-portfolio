@@ -11,10 +11,11 @@ const Hero = () => {
 						Hello!
 					</Heading>
 					<Heading color="dark" fontM="md" fontT="lg" fontL="hu">
-						My name is <span style={{ color: "#f6f8ff", textShadow: "-2px 4px #004637" }}>Troy</span>.
+						My name is{" "}
+						<span style={{ color: "#f6f8ff", textShadow: "-2px 4px #004637" }}>Troy</span>.
 					</Heading>
 					<Heading color="dark" fontM="xs" fontT="md" fontL="lg" fontWeight="3" pb="md">
-						I like to design &amp; code.
+						I code for fun &amp; profit.
 					</Heading>
 					<ScrollLink to="contact" spy={true} smooth={true} offset={-70} duration={500}>
 						<Button mode="primary" width="20rem">
