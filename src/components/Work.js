@@ -19,7 +19,9 @@ const Work = () => {
 				</Heading>
 				<FlexRow>
 					<FlexCol xs="12" sm="3">
-						<Img src={ten24Logo} height="auto" width="180px" />
+						<div style={{ height: "180px", width: "180px", display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+							<Img src={ten24Logo} height="auto" width="180px" />
+						</div>
 						<Text pt="sm" pb="xs" font="lg7">
 							Ten24 Digital Solutions
 						</Text>
