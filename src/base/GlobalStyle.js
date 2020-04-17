@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components'
-import theme from './Theme'
+import { createGlobalStyle } from "styled-components"
+import theme from "./Theme"
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -20,6 +20,9 @@ body {
 	line-height: 1.6;
     min-height: 100vh;
     background: #ffffff;
+    -webkit-font-smoothing: anti-aliased;
+    -moz-osx-font-smoothing: anti-aliased;
+    text-rendering: optimizeLegibility;
 }
 
 a {

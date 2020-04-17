@@ -7,7 +7,7 @@ import { headingSizes, headingColors } from "./Styles"
 
 export const Heading = ({ children, level, ...props }) => {
 	return (
-		<BaseText as={`h${level}`} {...props}>
+		<BaseText as={`h${level}`} fontFamily="Marcellus" {...props}>
 			{children}
 		</BaseText>
 	)

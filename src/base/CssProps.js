@@ -766,6 +766,10 @@ export const fontWeight = css`
 			: props.fontWeight};
 `
 
+export const fontFamily = css`
+	font-family: ${props => props.fontFamily};
+`
+
 const spaces = {
 	none: "0",
 	bump: "0.4rem",

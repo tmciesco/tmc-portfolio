@@ -30,7 +30,12 @@ const Contact = () => {
 							LinkedIn
 						</Heading>
 						<a href="https://linkedin.com/in/troyciesco">
-							<Text pb="sm" fontAlign="center" color="secondary" style={{ textDecoration: "underline" }}>
+							<Text
+								pb="sm"
+								fontAlign="center"
+								color="secondary"
+								style={{ textDecoration: "underline" }}
+							>
 								linkedin.com/in/troyciesco
 							</Text>
 						</a>
@@ -40,13 +45,18 @@ const Contact = () => {
 							Github
 						</Heading>
 						<a href="https://github.com/tmciesco">
-							<Text pb="sm" fontAlign="center" color="secondary" style={{ textDecoration: "underline" }}>
+							<Text
+								pb="sm"
+								fontAlign="center"
+								color="secondary"
+								style={{ textDecoration: "underline" }}
+							>
 								github.com/tmciesco
 							</Text>
 						</a>
 					</FlexCol>
 				</FlexRow>
-				<a href="https://tmciesco-content.s3.amazonaws.com/img/troyciesco-resume-2019.pdf">
+				<a href="https://tmciesco-content.s3.amazonaws.com/img/troyciesco-resume-apr20.pdf">
 					<Button mode="secondary" mar="contain" display="block">
 						Download Resume
 					</Button>

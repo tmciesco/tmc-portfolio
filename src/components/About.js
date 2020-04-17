@@ -29,11 +29,11 @@ const About = () => {
 					In my spare time I like watching baseball, visiting cool places, and being outside.
 				</Text>
 				<Heading font="sm3" pb="xs">
-					What I'm Doing Now (July 2019)
+					What I'm Doing Now (April 2020)
 				</Heading>
 				<Text pb="sm" ml="sm">
-					Right now I work as a full-stack developer at Sinoc and I'm looking for a new outdoor
-					activity after completing a half-marathon in June.
+					Right now I work as a full-stack developer at ten24 and I'm waiting for the baseball
+					season to start up.
 				</Text>
 			</Wrapper>
 		</Section>

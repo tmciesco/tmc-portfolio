@@ -32,7 +32,8 @@ import {
 	left,
 	textFontSize,
 	headingFontSize,
-	fontWeight
+	fontWeight,
+	fontFamily
 } from "../../CssProps"
 
 const { spacingSizes, borderOptions, animations, elevations } = theme
@@ -76,6 +77,7 @@ const baseText = styled.span`
 	${spacingSizes};
 	${borderOptions};
 	${fontWeight};
+	${fontFamily};
 `
 
 export const elements = {
